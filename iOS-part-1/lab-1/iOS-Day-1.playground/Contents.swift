@@ -13,76 +13,74 @@ boolean -> true or false value
 float -> decimal number
 */
 
+print("💡 Topic 1 💡\nCreating a String Variable & Changing Variables\nEdit the code below this line to include your name 👇\n")
 
-print("💡 Topic 1 💡\nCreating a String Variable & Changing Variables\nEdit the code below this line 👇\n")
+var Name = "[EDIT ME]"
 
-var Name = "[Edit me]"
-
-print("\(Name) welcome to your first day coding in swift !\n")
-
+print("> \(Name) welcome to your first day coding in swift !\n")
 
 
-print("\n🧠 Challenge 1: 🧠\nChange the existing variable (Age) to contain your age.\nEdit the code below this line👇\n")
-
+print("\n🧠 Challenge 1: 🧠\nChange the existing variable (Age) to contain your age.\nEdit the code below this line 👇\n")
 
 var Age = 91
 
-print("I'm \(Name) and I started learning Swift at \(Age) years old")
+print("> I'm \(Name) and I started learning Swift at \(Age) years old.\n")
 
 
 print("-----------------------------------------------------------------------------------------\n")
 
 
-print("💡 Topic 2 💡\nCreating a Constant\nEdit the code below this line to contain batmans name (Bruce Wayne)👇")
+print("💡 Topic 2 💡\nCreating a Constant\nEdit the code below this line to contain Batman's name (Bruce Wayne) 👇\n")
 
-let batmansName = "Bruce Wayne"
+let batmansName = "[EDIT ME]"
 
-print("\(batmansName) is the batman !")
+print("> \(batmansName) is the batman !\n")
+
 
 /*
-Changing a consant value will result in an error (ERROR) uncomment below to see error.
+Changing a consant value will result in an error (ERROR)
+Uncomment (remove //) line 48 below to see the error.
+ 
 Cannot assign to value: 'batmansName' is a 'let' constant
 */
 
 //batmansName = "Dick Grayson"
 
 
-print("🧠 Challenge 2: 🧠\nCreate a new constant called secondBatmanName and assign it Dick Grayson.")
-
-
-/*
-👇 Your new code below 👇
-*/
-
-
-//--------------------------------------------------------------------------------------------------
-
-
-print("💡 Topic 3 💡 \nType Inference")
-
-var icecreamFlavor = "[Change Me]"
-
-print("\n\(icecreamFlavor) is my favorite icecream flavor !")
-
-
-/*
-🧠 Challenge 3: 🧠
-Create a new set of variables for the icecreams price (float or int), toppings (boolean), scoopCount (int)
-*/
-
+print("\n🧠 Challenge 2: 🧠\nCreate a new constant called secondBatmanName and assign it Dick Grayson.\nEdit the code below this line 👇\n")
 
 /*
 👇 Your new code below 👇
 */
+
+
 
 print("-------------------------------------------------------------------------------------------")
 
-/*
-💡 Topic 4 💡
-Type Annotation
 
+print("\n💡 Topic 3 💡 \nType Inference\nEdit the code below this line to put your favorite ice cream flavor 👇\n")
+
+var icecreamFlavor = "[EDIT ME]"
+
+print("> \(icecreamFlavor) is my favorite icecream flavor !\n\n")
+
+
+print("🧠 Challenge 3: 🧠")
+
+print("Create a new set of variables for the icecream's price (float or int), toppings (boolean), scoopCount (int)\nEdit the code below this line 👇\n")
+
+/*
+👇 Your new code below 👇
 */
-var phoneBrand: String = "Change this to your current phone brand e.g google/apple/samsung"
+
+
+
+print("-------------------------------------------------------------------------------------------")
+
+
+print("\n💡 Topic 4 💡 \nType Annotation\nEdit the code below this line 👇\n")
+
+var phoneBrand: String = "[EDIT ME] Change this to your current phone brand e.g Google/Apple/Samsung"
 
 print(type(of: phoneBrand))
 
@@ -91,11 +89,7 @@ var phonePrice: Float = 999.99
 print(type(of: phonePrice))
 
 
-/*
-🧠 Challenge 4A: 🧠
-
- What will be the printed type output of the two variables below ?
-*/
+print("\n🧠 Challenge 4A: 🧠 \nWhat will be the printed type output of the two variables below ?\nEdit the code below this line 👇\n")
 
 var phoneBroken = false
 
@@ -107,11 +101,7 @@ var phoneNumber = 123_555_6789
 
 
 
-/*
-🧠 Challenge 4B: 🧠
-
-Type annotate the correct type for each variable/constant
-*/
+print("\n🧠 Challenge 4B: 🧠 \nType annotate the correct type for each variable/constant ?\nEdit the code below this line 👇\n")
 
 var idNumber = 717_11_1909
 
@@ -126,13 +116,8 @@ var underWater =  true
 */
 
 
-/*
-💡 Topic 4C 💡
- 
-Type Safety
 
-*/
-// uncomment to see type safety in action.
+print("\n💡 Topic 4C 💡 \nType Safety\nUncomment the code to see type safety in action 👇\n")
 
 // var shoeSize: float = true
 
