@@ -112,7 +112,7 @@ if newBatteryLife < 20 {
     print("You have half battery \(newBatteryColor)")
 } else {
     newBatteryColor = "green"
-    print("You have high battery \(newBatteryColor)")
+    print("You have high battery \(newBatteryColor)") 
 }
 
 
