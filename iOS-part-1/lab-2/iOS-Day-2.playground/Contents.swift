@@ -160,7 +160,7 @@ print(burgerShackHealthMenu["Chicken Burger", default: 4.99])
 // Get the specific value of a key in a dictionary using: dictionary["key"]
 
 // Adjusts the price of Chicken Burger
-// burgerShackHealthMenu["Chicken Burger"] = 5.99 **********************************************************************
+// burgerShackHealthMenu["Chicken Burger"] = 5.99
 
 
 print("\n🧠 Challenge 2A: 🧠")
