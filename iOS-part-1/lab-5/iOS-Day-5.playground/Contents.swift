@@ -181,7 +181,7 @@ let newSortedCookiesClosures = cookiesClosures.sorted(by: { (cookie1:String, coo
 print(newSortedCookiesClosures) // prints ["Oreos", "Chips Ahoy", "Famous Amos", "Grandmas", "Tates"] the same as the function version
 
 print("\n🧠 Challenge 3B: 🧠")
-print("Convert your code from the last challenge into a closure")
+print("Convert your code from the last challenge into a closure👇\n")
 
 /*
  👇 Your new code below 👇
@@ -206,7 +206,7 @@ let newSortedCookiesNoTypeSafety = cookiesNoTypeSafety.sorted(by: {(cookie1, coo
 print(newSortedCookiesNoTypeSafety)
 
 print("\n🧠 Challenge 3C: 🧠")
-print("Use a closure in the sorted function to sort an array where anything that starts with an 'f' is first and everything else is sorted regularly")
+print("Use a closure in the sorted function to sort an array where anything that starts with an 'f' is first and everything else is sorted regularly👇\n")
 
 let fArray = ["create", "apple", "fun", "friday", "roblox", "igloo", "panama", "hello", "formula", "minecraft"]
 
@@ -253,10 +253,28 @@ print(newSortedCookiesShorthandSyntax)
 
 print("\n🧠 Challenge 4A: 🧠")
 
+print("Use trailing closures and shorthand syntax with the map method to create a new nums array where every even number is squared and every odd number is cubed👇\n")
+
+let nums = [4, 1, 7, 5, 0, 2, 9, 3, 8, 4, 7, 2, 5, 3, 0]
+
+/*
+ 👇 Your new code below 👇
+*/
 
 //-------------------------------------------------------------------------------------------
 print("\n💡 Topic 4B 💡\nRemoving the return keyword")
-
+// if your trailing closure is one line and returns in that one line, you can remove the return
+let hellos = ["hello", "hi", "good morning"]
+let hellosCapital = hellos.map { $0.uppercased() }
+print(hellosCapital) // prints ["HELLO", "HI", "GOOD MORNING"]
 
 print("\n🧠 Challenge 4B: 🧠")
+
+print("Rewrite the previous challenge in one line (using the terinary operator) and remove the return statement👇\n")
+
+let numsChallenge = [4, 1, 7, 5, 0, 2, 9, 3, 8, 4, 7, 2, 5, 3, 0]
+
+/*
+ 👇 Your new code below 👇
+*/
 
