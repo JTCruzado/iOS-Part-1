@@ -65,22 +65,22 @@ let heroName2 = "Thor"
 
 print("\n💡 Topic 1B 💡\nElse Statements\n")
 
-// Else statements allow you to check for more than conditions within the same statement.
+// else If statements allow you to check for more than conditions within the same statement.
 let batteryLife = 19
 var batteryColor = "green"
 
 if batteryLife < 20 {
     batteryColor = "red"
-    print("your battery is low \(batteryColor)")
+    print("your battery is low battery color: \(batteryColor)")
 } else {
-    print("You have full battery \(batteryColor)")
+    print("You have full battery battery color: \(batteryColor)")
 }
 
 
 print("\n🧠 Challenge 1B: 🧠")
-print("If we can afford to buy food, print YES. Else, print NO 👇\n")
+print("If you have money for snacks, print YES. Else, print NO 👇\n")
 
-let foodPrice = 19
+let snackPrice = 19
 let money = 28
 
 /*
@@ -97,8 +97,7 @@ print("\n💡 Topic 1C 💡\nElse If Statements")
 
 
 print("\n🧠 Challenge 1C: 🧠")
-print("Create another condition using else if where newBatteryColor is black when newBatteryLife is 0 👇\n")
-
+print("Add an else if to check if the battery life is greater than 50 and less than 75 the newBatteryColor will be Orange👇\n")
 // Add onto the code below 👇
 
 let newBatteryLife = 19
@@ -135,7 +134,7 @@ people.popLast()
 print(people.isEmpty) // true
 
 print("\n🧠 Challenge 1D: 🧠")
-print("Check if the user has no username, let them know with a print statement 👇\n")
+print("Check if the user has no username, let them know with a print statement username field cannot be left empty 👇\n")
 
 var username = ""
 
