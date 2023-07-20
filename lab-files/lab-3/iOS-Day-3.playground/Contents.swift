@@ -444,7 +444,7 @@ print("\n💡 Topic 4B 💡\nFor Loops")
 // as an example, this is how you would do the previous example with a for loop
 
 // loop:
-for i in 1...5 {
+for _ in 1...5 {
     print("Hello")
 }
 
