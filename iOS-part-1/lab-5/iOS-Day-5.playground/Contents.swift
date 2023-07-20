@@ -2,42 +2,9 @@ import UIKit
 
 /*
  
-Day 4 - Functions
+Day 5 - Closures
  
 */
-
-
-// TEMPLATE:::: REMOVE:
-print("💡 Topic 1 💡\nReusing Code with Functions\n")
-
-// This set of greetings seems short at just 3 lines. But what if we wanted to use them multiple times?
-print("Hello Engineer")
-print("Welcome to iOS Club")
-print("From: Jeremy, Tom, Deyby & Teddy")
-
-//-------------------------------------------------------------------------------------------
-
-print("\n💡 Topic 1A 💡\nDefining Functions\n")
-
-func greet() {
-    print("Hello Engineer")
-    print("Welcome to iOS Club")
-    print("From: Jeremy, Tom, Deyby & Teddy")
-}
-
-// Calls the greet function
-greet() // Greets 1st engineer
-greet() // Greets 2nd engineer
-greet() // Greets 3rd engineer
-
-
-print("\n🧠 Challenge 1A: 🧠")
-print("Create a Farewell Function and Call It👇\n")
-
-/*
- 👇 Your new code below 👇
-*/
-
 
 
 print("💡 Topic 1 💡\nCreating Closures\n")
