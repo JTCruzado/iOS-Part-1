@@ -23,7 +23,7 @@ func hello() {
 hello()
 
 // creating a closure
-let helloCopy = hello()
+var helloCopy = hello
 helloCopy()
 
 // or you can create closures directly
@@ -41,29 +41,27 @@ print("Create a closure that prints the sum of 500 and 600👇\n")
 */
 
 
-bigNumber()
-
 print("\n💡 Topic 1B 💡\nCreating closures with parameters\n")
 
 // closures with parameters look a little different from regular functions, and parameters act a little different:
-func helloVer2(word: String) {
+func helloWithParameter(word: String) {
     print("hello \(word)!")
 }
 
-helloVer2(word: "world") // prints hello world!
+helloWithParameter(word: "world") // prints hello world!
 
-let helloVer2Copy = helloVer2
+let helloWithParameterCopy = helloWithParameter
 
 // the name of the parameter is forgotten when its assigned to a variable
-helloVer2Copy("world") // also prints hello world!
+helloWithParameterCopy("world") // also prints hello world!
 
 
 // you can also create these types of closures directly too
-let helloClosureVer2 = { (word:String) -> Void in
+let helloWithParameterClosure = { (word:String) -> Void in
     print("hello \(word)!")
 }
 
-helloClosureVer("closure") // prints hello closure!
+helloWithParameterClosure("closure") // prints hello closure!
 
 print("\n🧠 Challenge 1B: 🧠")
 print("Create a closure that prints the sum of two numbers👇\n")
@@ -72,9 +70,7 @@ print("Create a closure that prints the sum of two numbers👇\n")
  👇 Your new code below 👇
 */
 
-sum(9, 10)
-
-print("💡 Topic 2 💡\Understanding When to Use Closures\n")
+print("💡 Topic 2 💡\nUnderstanding When to Use Closures\n")
 
 // Closures have specific use cases
 
@@ -96,7 +92,7 @@ let dayOfTheWeek = { (day:Int) -> String in
 
 print(dayOfTheWeek(1))
 
-print("💡 Topic 3 💡\Using Functions and Closures\n")
+print("💡 Topic 3 💡\nUsing Functions and Closures\n")
 
 
 
@@ -182,7 +178,7 @@ let fArray = ["create", "apple", "fun", "friday", "roblox", "igloo", "panama", "
 */
 
 
-print("💡 Topic 4 💡\Trailing Closures\n")
+print("💡 Topic 4 💡\nTrailing Closures\n")
 // if a function takes another function as a parameter, like sorted, you can convert it into a trailing closure by using Swift's trailing closure syntax, which looks like this
 let cookiesTrailing = ["Famous Amos", "Oreos", "Chips Ahoy", "Tates", "Grandmas"]
 
