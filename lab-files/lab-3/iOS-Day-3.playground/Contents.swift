@@ -444,12 +444,12 @@ print("\n💡 Topic 4B 💡\nFor Loops")
 // as an example, this is how you would do the previous example with a for loop
 
 // loop:
-for i in 1...5 {
+for _ in 1...5 {
     print("Hello")
 }
 
 // the for loop loops over the iterable given, here it is 1...5, which is the numbers 1 to 5, inclusive.
-// i here is a variable set to the current value that the for loop has iterated to. i can be any variable name
+// the underscore is a variable set to the current value that the for loop has iterated to (its an underscore because it's not being used). the underscore can be any variable name like i, which is very common
 // if you printed out i like in this code:
 
 for i in 1...5 {
