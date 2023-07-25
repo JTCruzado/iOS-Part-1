@@ -7,43 +7,6 @@ Day 6 - Structs
 */
 
 
-print("💡 Topic 1 💡\nCreating Closures\n")
-
-// Closures are special functions that can be assigned to variables and used as parameters in other functions:
-
-
-
-print("\n💡 Topic 1A 💡\nCreating closures\n")
-
-// defining a regular function
-func hello() {
-    print("hello!")
-}
-
-hello()
-
-// creating a closure
-var helloCopy = hello
-helloCopy()
-
-// or you can create closures directly
-let helloClosure = {
-    print("Hello world!")
-}
-
-helloClosure()
-print("\n🧠 Challenge 1A: 🧠")
-
-print("Create a closure that prints the sum of 500 and 600👇\n")
-
-/*
- 👇 Your new code below 👇
-*/
-
-
-
-
-
 print("💡 Topic 1 💡\nCreating Structs\n")
 // Structs are a very powerful tool in Swift because they allow us to create our own complex data types.
 // They even allow for their own custom variables and funcntions
