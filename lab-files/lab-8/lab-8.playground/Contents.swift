@@ -68,6 +68,7 @@ func getFavoriteDesert(form: [String: String]) {
     }
     guard let name = form["name"] else {
         print("data missing")
+        return
     }
     print("\(name)'s favorite desert is \(desert)")
 }
