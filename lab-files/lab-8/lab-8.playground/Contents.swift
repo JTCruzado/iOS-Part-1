@@ -56,6 +56,24 @@ phoneNumberField = 5505550550 // there's always a value here because we just set
 print(phoneNumberField) // prints Optional(5505550550) because it's not unwrapped
 print(phoneNumberField!) // prints 5505550550 because it's unwrapped now
 
+//-------------------------------------------------------------------------------------------
+
+print("\n🧠 Challenge 1: 🧠")
+print("Handle the return value of this function. Use an if let statement, if it returns nothing, say something, else, return the value👇\n")
+
+func randomTrueFalse() -> Int? {
+    let randomValue = Int.random(in: 0...2)
+    if randomValue == 1{
+        return nil
+    } else {
+        return randomValue
+    }
+}
+
+/*
+ 👇 Your new code below 👇
+*/
+
 print("\n💡 Topic 2 💡\n Guard \n")
 
 // a guard statement is used to exit a function early if something is nil
@@ -96,6 +114,16 @@ let userInput: Bool? = nil
 let shouldContinue = userInput ?? false
 
 print(shouldContinue) // prints false
+
+//-------------------------------------------------------------------------------------------
+
+print("\n🧠 Challenge 3: 🧠")
+print("👇\n")
+
+/*
+ 👇 Your new code below 👇
+*/
+
 
 print("\n💡 Topic 4 💡\n Optional Chaining \n")
 
