@@ -118,7 +118,17 @@ print(shouldContinue) // prints false
 //-------------------------------------------------------------------------------------------
 
 print("\n🧠 Challenge 3: 🧠")
-print("👇\n")
+print(" the randomCookie function returns either a random cookie or nil, use nil coalescing to make sure to always print a value (not print nil) 👇\n")
+
+func randomCookie() -> String? {
+    let cookies = ["Oreo", "Chips Ahoy", "Milano", "Fudge Stripes", "Chocolate Chip"]
+    let randomNum = Int.random(in: -1...(cookies.count-1))
+    if randomNum == -1 {
+        return nil
+    } else {
+        return cookies[randomNum]
+    }
+}
 
 /*
  👇 Your new code below 👇
@@ -143,6 +153,17 @@ if let numRooms = jerry.house?.numPeople { // because you have nil here, you can
 } else {
     print("there are an unknown amount of rooms in the house")å
 }
+
+//-------------------------------------------------------------------------------------------
+
+print("\n🧠 Challenge 4: 🧠")
+print("  👇\n")
+
+
+
+/*
+ 👇 Your new code below 👇
+*/
 
 print("\n💡 Topic 5 💡\n Function Faliure \n")
 
