@@ -268,7 +268,7 @@ print(languageSet.sorted()) // ["C", "Carbon", "JavaScript", "Julia"]
 print(languageSet.count) // 4
  
 
-print("\n🧠 Challenge 3B: 🧠")
+print("\n🧠 Challenge 3D: 🧠")
 print("Call These Methods on Your Rainbow Color Set 👇\n")
 
 /*
