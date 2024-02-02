@@ -22,7 +22,7 @@ var drink: Double = 0.99
 let tax: Double = 0.08875
 
 // One array
-let burgerMenu = [3.99, 1.99, 0.99, 0.08875]
+let burgerOrder = [3.99, 1.99, 0.99, 0.08875]
 
 // Edit the array below to contain these Ints 👇
 var num1: Int = 1
@@ -38,22 +38,22 @@ print("\n💡 Topic 1A 💡 \nAppend Method")
 
 // EDIT THE CODE BELOW 👇
 // Can you find the bug in the code below? (Uncomment it)
-// burgerMenu.append("Milk Shake")
+// burgerOrder.append("Milk Shake")
 
 // Can you find the bug in the code below? (Uncomment it)
-// burgerMenu.append(4.99)
+// burgerOrder.append(4.99)
 
 /*
  In Swift, we have variables and constants.
- burgerMenu is a constant, but we can change it to a variable to allow for modifications.
+ burgerOrder is a constant, but we can change it to a variable to allow for modifications.
 */
 
-var burgerMenu2 = [3.99, 1.99, 0.99, 0.08875]
-burgerMenu2.append(4.99)
+var burgerOrder2 = [3.99, 1.99, 0.99, 0.08875]
+burgerOrder2.append(4.99)
 
 
 print("\n🧠 Challenge 1A: 🧠")
-print("Append 2.99 to burgerMenu2 👇\n")
+print("Append 2.99 to burgerOrder2 👇\n")
 
 /*
  👇 Your new code below 👇
@@ -61,18 +61,18 @@ print("Append 2.99 to burgerMenu2 👇\n")
 
 
 
-print(burgerMenu2)
+print(burgerOrder2)
 
 //-------------------------------------------------------------------------------------------
 
 print("\n💡 Topic 1B 💡 \nArray Indexing\n")
 
 // The first item in an array has an index of 0
-print(burgerMenu2[0])
+print(burgerOrder2[0])
 
 
 print("\n🧠 Challenge 1B: 🧠")
-print("Print the third item in burgerMenu2 👇\n")
+print("Print the third item in burgerOrder2 👇\n")
 
 /*
  👇 Your new code below 👇
