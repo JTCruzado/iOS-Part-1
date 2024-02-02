@@ -155,7 +155,7 @@ print(keys)
 print(values)
 
 // Gets specific keys of a dictionary, selects the first key
-print(burgerShackHealthyMenu["Chicken Burger", default: 4.99])
+print(burgerShackHealthyMenu["Chicken Burger"])
 
 // Get the specific value of a key in a dictionary using: dictionary["key"]
 
