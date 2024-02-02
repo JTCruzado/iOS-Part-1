@@ -98,14 +98,14 @@ healthyMenu.append("water")
 healthyMenu[2] // Grabs the third item: salad
 
 // Healthy Menu Prices
-var healthMenuPrices = [Double]()
+var healthyMenuPrices = [Double]()
 
-healthMenuPrices.append(4.99)
-healthMenuPrices.append(3.99)
-healthMenuPrices.append(4.49)
-healthMenuPrices.append(0.99)
+healthyMenuPrices.append(4.99)
+healthyMenuPrices.append(3.99)
+healthyMenuPrices.append(4.49)
+healthyMenuPrices.append(0.99)
 
-healthMenuPrices[1] // Grabs the second price
+healthyMenuPrices[1] // Grabs the second price
 
 
 print("\n🧠 Challenge 1C: 🧠")
@@ -125,7 +125,7 @@ print("\n-----------------------------------------------------------------------
 print("\n💡 Topic 2 💡 \nDictionaries")
 
 // Creates a dictionary with String keys and Double values
-let burgerShackHealthMenu: [String: Double] = [
+let burgerShackHealthyMenu: [String: Double] = [
     "Chicken Burger": 4.99,
     "Fish Burger": 3.99,
     "Salad": 4.49,
@@ -146,21 +146,21 @@ let member1: [String: String] = [
 print("\n💡 Topic 2A 💡 \nAccessing Dictionary Keys / Values\n")
 
 // Gets all the keys of the dictionary
-let keys = burgerShackHealthMenu.keys
+let keys = burgerShackHealthyMenu.keys
 // Gets all the values of the dictionary
-let values = burgerShackHealthMenu.values
+let values = burgerShackHealthyMenu.values
 // Prints the keys
 print(keys)
 // Prints the values
 print(values)
 
 // Gets specific keys of a dictionary, selects the first key
-print(burgerShackHealthMenu["Chicken Burger", default: 4.99])
+print(burgerShackHealthyMenu["Chicken Burger", default: 4.99])
 
 // Get the specific value of a key in a dictionary using: dictionary["key"]
 
 // Adjusts the price of Chicken Burger
-// burgerShackHealthMenu["Chicken Burger"] = 5.99
+// burgerShackHealthyMenu["Chicken Burger"] = 5.99
 
 
 print("\n🧠 Challenge 2A: 🧠")
@@ -180,7 +180,7 @@ print("\n💡 Topic 2B 💡 \nDefault Values\n")
 // So by having a default value, we have a fallback value in case data is missing. This idea of fallback/optional data will be covered at a later time when we discuss optionals.
  
 // So if we had no price specified for the Chicken Burger, we have a fallback price of 4.99…
-print(burgerShackHealthMenu["Chicken Burger", default: 4.99])
+print(burgerShackHealthyMenu["Chicken Burger", default: 4.99])
 
 
 print("\n-------------------------------------------------------------------------------------------")
